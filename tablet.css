@@ -1,0 +1,42 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 16px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #taget {
+    font-size: 16px;
+  }
+
+  .shou-bun {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .teian-jiko {
+    font-size: 14px;
+  }
+  .teian-border {
+    font-size: 14px;
+    padding: 10px 4px !important;
+  }
+  .teian-border span {
+    margin-right: 5px !important;
+  }
+  .td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 40%;
+  }
+}
